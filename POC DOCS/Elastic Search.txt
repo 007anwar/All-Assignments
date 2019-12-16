@@ -1,0 +1,125 @@
+To run Elastic Container
+docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.2.4
+
+
+To create index
+localhost:9200/company/
+
+
+
+To create table
+localhost:9200/company/employee
+       { "mappings": {
+            "employee": {
+                "properties": {
+                    "  id": {
+                        "type": "long"
+                    },
+                    "experienceInYears": {
+                        "type": "long"
+                    },
+                    "name": {
+                        "type": "string",
+                        "analyzer": "analyzer-name"
+                    }
+                }
+            }
+       }
+       }
+        
+
+
+To insert row in table
+localhost:9200/company/employee/11/_create
+{
+"age" : 45,
+"experienceInYears" : 10,
+"name": "ndrew"
+}
+
+To search all employes
+
+http://localhost:9200/company/employee/_search
+
+
+
+To delete
+
+DELETE localhost:9200/information_technology/person/1
+
+
+To analyze
+POST:http://localhost:9200/bookdata/books/_analyze
+
+{
+	"Analyzer":"whitespace",
+	"text":"wings of fire"
+}
+
+
+To search  
+
+GET:http://localhost:9200/bookdata/books/_search
+
+{
+	"query":{
+		"match":{
+	"author":"anwar"}
+	}
+}
+
+
+curl GET http://localhost:8080/api/users/me -H "authorization: Bearer e9d6fff7-1e51-4b23-b740-1ad36db487eb"
+
+uri search
+GET
+http://localhost:9200/bookdata/books/_search?q=author:anwar
+
+curl --header "Authorization: Bearer 65cf3227-913c-4fd2-ab0e-e6fd2f1645a7" http://localhost:8080/api/users/me
+curl -v -X GET http://localhost:8080/api/users/me \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer 65cf3227-913c-4fd2-ab0e-e6fd2f1645a7"
+
+
+
+
+
+curl -X POST --user clientapp:123456 http://localhost:8081/oauth/token -H "content-type: application/x-www-form-urlencoded" -d "code=Ee2WYI&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8082%2Flogin&scope=read_user_info"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+curl -i -X POST -H 'Content-Type: application/json' -d '{"username": "humptydumpty", "password": "123456"}' http://localhost:8080/oauth authorize?client_id=clientapp&response_type=code&scope=read_profile_info
+
+
+
+
+GET /data HTTP/1.1 Host: http://localhost:8080/oauth/token Authorization: Bearer 65cf3227-913c-4fd2-ab0e-e6fd2f1645a7
+
+curl -X GET http://localhost:8080/api/users/me -H "authorization: Bearer 68c67bd4-05e6-48b2-99da-355852a12c82"
+
+
+
+
+
+
+
+
+
+
+
+
+
+

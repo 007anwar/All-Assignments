@@ -1,0 +1,5 @@
+curl -X POST --user clientapp:123456 http://localhost:8081/oauth/token -H "content-type: application/x-www-form-urlencoded"-d "code=Fcu4Wu&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8082%2Flogin&scope=read_user_info"
+
+
+curl -X GET http://localhost:8080/api/users/me
+     -H "authorization: Bearer c3fb3708-afcc-4408-b0a0-c2d3ce3de469"

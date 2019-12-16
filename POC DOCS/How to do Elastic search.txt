@@ -1,0 +1,50 @@
+To run Elastic Container
+docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.2.4
+
+To create index
+PUT:
+localhost:9200/company/
+
+
+
+To create table
+POST:
+localhost:9200/company/employee
+       { "mappings": {
+            "employee": {
+                "properties": {
+                    "  age": {
+                        "type": "long"
+                    },
+                    "experienceInYears": {
+                        "type": "long"
+                    },
+                    "name": {
+                        "type": "string",
+                        "analyzer": "analyzer-name"
+                    }
+                }
+            }
+       }
+       }
+        
+
+
+To insert row in table
+PUT:
+localhost:9200/company/employee/11/_create
+{
+"age" : 45,
+"experienceInYears" : 10,
+"name": "ndrew"
+}
+
+To search all employes
+
+http://localhost:9200/company/employee/_search
+
+
+
+To delete
+
+DELETE localhost:9200/information_technology/person/1

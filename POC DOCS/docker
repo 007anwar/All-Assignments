@@ -1,0 +1,14 @@
+
+Command 'shell' not found, did you mean:
+
+  command 'shelr' from deb shelr (0.16.3-2)
+  command 'jshell' from deb openjdk-11-jdk-headless (11.0.4+11-1ubuntu2~19.04)
+  command 'jshell' from deb openjdk-12-jdk-headless (12.0.2+9-1~19.04)
+  command 'jshell' from deb openjdk-13-jdk-headless (13~13-0ubunt1)
+  command 'pshell' from deb python-pyramid (1.10.2+dfsg-2)
+  command 'spell' from deb spell (1.0-24build1)
+  command 'qshell' from deb qtile (0.10.7-2ubuntu2)
+  command 'bshell' from deb avahi-ui-utils (0.7-4ubuntu5)
+
+Try: apt install <deb name>
+
