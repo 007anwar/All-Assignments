@@ -1,0 +1,13 @@
+package com.example.demo.pojo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class Myconfig extends WebSecurityConfigurerAdapter {
+	  @Autowired
+	  public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+	    auth.inMemoryAuthentication()
+	        .withUser("anwar").password("password").roles("USER");
+	  }
+}

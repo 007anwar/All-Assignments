@@ -1,0 +1,11 @@
+spring.cloud.config.username=user1
+spring.cloud.config.password='{cipher}c4e67dc39c7e6efd40e7599273bd46e98e926bcd1b5ae1e1d890e171219345ba'
+spring.cloud.config.name=user1
+spring.datasource.data-username=user1
+spring.datasource.data-password='{cipher}c4e67dc39c7e6efd40e7599273bd46e98e926bcd1b5ae1e1d890e171219345ba'
+spring.profiles.active=dev
+spring.cloud.config.retry.max-attempts=3000
+#encrypt.key=abc
+#spring.cloud.config.uri:localhost:8090
+#spring.config.location=
+spring.cloud.config.authorization=

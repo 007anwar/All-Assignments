@@ -1,0 +1,5 @@
+package restConsumer;
+
+public class Hello {
+
+}

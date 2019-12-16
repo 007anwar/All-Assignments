@@ -1,0 +1,27 @@
+package com.example.demo.Entity;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Dept {
+	@Id
+	public int did;
+	public String name;
+	@OneToMany(mappedBy = "Dept",cascade = CascadeType.ALL)
+	public Emp emp;
+	public int getDid() {
+		return did;
+	}
+	public void setDid(int did) {
+		this.did = did;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+}

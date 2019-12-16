@@ -1,0 +1,14 @@
+package com.example.JPAGRADLE.pojo;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.google.common.annotations.Beta;
+
+public class Convert {
+	  @Autowired
+	    private ModelMapper modelMapper;
+	public Employee convertToEntity(EmployeeDto empdto){
+	    return modelMapper.map(empdto, Employee.class);
+	}
+}

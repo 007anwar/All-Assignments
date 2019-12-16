@@ -1,0 +1,6 @@
+server.port=8888
+spring.cloud.config.server.git.uri=https://github.com/007anwar/Emp_config
+security.user.name=user1
+security.user.password={cipher}49347b1f3fe54197c47b553022121d76d5dc9ad1dadff9e6029268230455f794
+security.basic.enabled=true
+encrypt.key=abc

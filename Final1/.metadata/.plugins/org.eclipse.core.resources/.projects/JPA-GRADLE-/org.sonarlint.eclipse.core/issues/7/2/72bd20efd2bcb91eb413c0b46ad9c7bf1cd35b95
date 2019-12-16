@@ -1,0 +1,17 @@
+
+\squid:S1068"(Remove this unused "name" private field.(Ë¥¼8ÔŠÍõç-HµRMAJORZ
+CODE_SMELL
+hsquid:S1068"/Remove this unused "designation" private field.(™ù“üÿÿÿÿ8ÔŠÍõç-H·RMAJORZ
+CODE_SMELL
+_squid:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8ÔŠÍõç-H´RMAJORZ
+CODE_SMELL
+bsquid:S1068")Remove this unused "email" private field.(ª«Õìùÿÿÿÿ8ÔŠÍõç-H¶RMAJORZ
+CODE_SMELL
+Šsquid:S1450"QRemove the "id" field and declare it as a local variable in the relevant methods.(ôç¼Óşÿÿÿÿ8 ¯œ‘è-HÍRMINORZ
+CODE_SMELL
+‡squid:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼8 ¯œ‘è-HÎRMINORZ
+CODE_SMELL
+squid:S1450"TRemove the "email" field and declare it as a local variable in the relevant methods.(ª«Õìùÿÿÿÿ8 ¯œ‘è-HÏRMINORZ
+CODE_SMELL
+“squid:S1450"ZRemove the "designation" field and declare it as a local variable in the relevant methods.(™ù“üÿÿÿÿ8 ¯œ‘è-HĞRMINORZ
+CODE_SMELL

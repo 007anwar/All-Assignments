@@ -1,0 +1,29 @@
+package com.example.demo;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.example.demo.entities.Student;
+import com.example.demo.repo.studentRepository;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class JpqlDemo1ApplicationTests {
+
+	@Autowired
+	studentRepository repo;
+
+	@Test
+	public void create() {
+
+		Student entity = new Student();
+		entity.setFirstname("Sultan");
+		entity.setLastname("Khan");
+		// entity.setId(007);
+		entity.setScore(99);
+		repo.save(entity);
+	}
+}

@@ -1,0 +1,82 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.test.annotation.Rollback;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.example.demo.entities.Student;
+import com.example.demo.repo.studentRepository;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class JpqlDemoApplicationTests {
+@Autowired
+	studentRepository repo;
+	@Test
+	public void create() {
+		
+		Student entity = new Student();
+		entity.setFirstname("Zidan");
+		entity.setLastname("Mulla");
+		//entity.setId(007);
+		entity.setScore(99);
+		repo.save(entity);
+	}
+	@Test
+	public void display()
+	{
+		System.out.println(repo.findallstud(new PageRequest(0, 2)));
+	}
+@Test
+public void displayFandL()
+{
+
+	
+List<Object[]> firstandlast = repo.firstandlast();
+for (Object[] objects : firstandlast) {
+	System.out.println(objects[0]+" "+objects[1]);
+}
+	
+	}
+@Test
+public void findAllByFirstName()
+{
+System.out.println(repo.findAllStudentByFirstName("anwar"));
+}
+@Test
+public void findAllByFirstScore()
+{
+System.out.println(repo.findByScore(10, 100));
+}
+
+@Test
+@Transactional
+@Rollback(true)
+public void deleteByFirstName()
+{
+repo.deletebyfirstname("Anwar");
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

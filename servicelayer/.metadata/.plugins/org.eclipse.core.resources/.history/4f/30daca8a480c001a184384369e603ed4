@@ -1,0 +1,27 @@
+package com.example.JPAGRADLE;
+
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.junit.MockitoJUnitRunner;
+
+@RunWith(MockitoJUnitRunner.class)
+public class MokitoDemo {
+	   @InjectMocks
+	    RecordService recordService;
+	     
+	    @Mock
+	    DatabaseDAO databaseMock;
+	     
+	    @Mock
+	    NetworkDAO networkMock;
+	     
+	    @Test
+	    public void saveTest()
+	    {
+	        boolean saved = recordService.save("temp.txt");
+	        assertEquals(true, saved);
+	         
+	        verify(databaseMock, times(1)).save("temp.txt");
+	        verify(networkMock, times(1)).save("temp.txt");
+	    }
+}

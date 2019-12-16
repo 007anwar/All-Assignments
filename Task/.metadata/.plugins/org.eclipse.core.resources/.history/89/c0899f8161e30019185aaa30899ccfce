@@ -1,0 +1,17 @@
+
+public class Test3 {
+    private static int x = 5;
+
+    public static class NestedTest {
+        public static void doSomething() throws Exception {
+            Field x = Test3.class.getDeclaredField("x");
+            //x.setAccessible(true);
+            x.setInt(null, 10);
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
+        NestedTest.doSomething();
+        System.out.println(Test3.x);
+    }
+}

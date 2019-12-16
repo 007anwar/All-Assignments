@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import javax.persistence.Entity;
+
+import com.example.demo.entity.payment;
+
+@Entity
+public class check extends payment {
+private String checknumber;
+
+public String getChecknumber() {
+	return checknumber;
+}
+
+public void setChecknumber(String checknumber) {
+	this.checknumber = checknumber;
+}
+}

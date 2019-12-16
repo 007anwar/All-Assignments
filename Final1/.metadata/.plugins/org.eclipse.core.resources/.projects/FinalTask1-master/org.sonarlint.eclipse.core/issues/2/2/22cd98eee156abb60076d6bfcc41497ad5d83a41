@@ -1,0 +1,19 @@
+
+bsquid:S3655;"7Call "findById.isPresent()" before accessing the value.(–õúÿÿÿÿH×RMAJORZBUG
+^squid:S3655H"8Call "empfromdb.isPresent()" before accessing the value.(­¥Ä«HØRMAJORZBUG
+•squid:UselessImportCheck"[Remove this unused import 'org.springframework.web.servlet.function.ServerRequest.Headers'.( Ş¦’HÙRMINORZ
+CODE_SMELL
+xsquid:UselessImportCheck">Remove this unused import 'javax.validation.constraints.Null'.(ã¥˜HÚRMINORZ
+CODE_SMELL
+lsquid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸHÛRMINORZ
+CODE_SMELL
+squid:UselessImportCheck"FRemove this unused import 'javax.persistence.EntityNotFoundException'.(©ÿ€HÜRMINORZ
+CODE_SMELL
+[squid:S1452""&Remove usage of generic wildcard type.(¶Ü“ÛúÿÿÿÿHİRCRITICALZ
+CODE_SMELL
+[squid:S1452E"&Remove usage of generic wildcard type.(©Ü‰åûÿÿÿÿHŞRCRITICALZ
+CODE_SMELL
+[squid:S1452a"&Remove usage of generic wildcard type.(Ï“¾ùÿÿÿÿHßRCRITICALZ
+CODE_SMELL
+}squid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(º‡áÜÿÿÿÿÿHàRMAJORZ
+CODE_SMELL

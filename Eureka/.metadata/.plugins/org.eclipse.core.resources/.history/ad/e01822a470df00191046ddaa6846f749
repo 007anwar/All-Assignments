@@ -1,0 +1,12 @@
+#spring.profiles.active=native
+server.port=8888
+#spring.cloud.config.server.native.search-locations=classpath:/common-config
+spring.cloud.config.server.git.uri=https://github.com/007anwar/Emp_config
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+spring.application.name=config_server
+#spring.security.user.name=configUser
+#security.user.password=configPassword
+security.user.role=SYSTEM
+security.user.name=user
+security.user.password=paswd
+#spring.cloud.config.server.encrypt.enabled=false

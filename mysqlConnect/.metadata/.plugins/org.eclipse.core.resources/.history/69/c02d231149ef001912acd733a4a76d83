@@ -1,0 +1,21 @@
+package com.example.demo.Entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Emp {
+private long eid;
+private String name;
+public long getEid() {
+	return eid;
+}
+public void setEid(long eid) {
+	this.eid = eid;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+}

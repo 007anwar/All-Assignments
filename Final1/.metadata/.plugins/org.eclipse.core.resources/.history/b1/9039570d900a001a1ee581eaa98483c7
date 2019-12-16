@@ -1,0 +1,5 @@
+package com.example.JPAGRADLE.service;
+
+public class ServiceImpl {
+
+}

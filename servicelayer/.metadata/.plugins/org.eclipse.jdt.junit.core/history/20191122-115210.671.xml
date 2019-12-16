@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JpaGradleSonarinitApplicationTests.save1" project="JPA-GRADLE-" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.074" displayname="JpaGradleSonarinitApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]">
+    <testcase name="save1" classname="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.074" displayname="save1()" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]/[method:save1()]"/>
+  </testsuite>
+</testrun>

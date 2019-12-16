@@ -1,0 +1,15 @@
+package com.example.JPAGRADLE;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+//@SpringBootApplication
+//@EnableSwagger2
+//@EnableWebMvc
+public class JpaGradleSonarinitApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaGradleSonarinitApplication.class, args);
+	}
+
+}

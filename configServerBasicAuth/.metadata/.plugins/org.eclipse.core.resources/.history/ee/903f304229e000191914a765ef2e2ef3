@@ -1,0 +1,3 @@
+spring.application.name=employee-producer
+spring.cloud.config.uri:localhost:8881
+

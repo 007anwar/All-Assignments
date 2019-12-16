@@ -1,0 +1,92 @@
+package com.example.JPAGRADLE;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import com.example.JPAGRADLE.controller.Employeee;
+import com.example.JPAGRADLE.pojo.Employee;
+import com.example.JPAGRADLE.repo.EmpRepo;
+import com.example.JPAGRADLE.service.EmployeeService;
+
+@SpringBootTest
+class JpaGradleSonarinitApplicationTests {
+
+	 @Mock
+	  EmpRepo rep;
+	  Employeee e;
+	  Employee emp;
+	  EmployeeService serv;
+	
+	 @InjectMocks
+String abc="string";
+	@Test
+void save1()
+{
+        when(rep.save(emp)).thenReturn(emp);
+        rep.save(emp);
+}
+	@Test
+	public void hello()
+	{
+
+        //arrange
+        Iterator iterator = mock(Iterator.class);
+        when(iterator.next()).thenReturn("Hello").thenReturn("World");
+        
+        //act
+        String result =iterator.next() + " " +iterator.next();
+        
+        //assert
+        assertEquals("Hello World", result);
+	}
+	
+	@Test
+	public void hello1()
+	{
+//when(serv.testmethod()).thenReturn("hello");
+String result="hello";
+assertEquals(result, result);
+String val = serv.testmethod();
+System.out.println(val);
+assertEquals("test", val);
+	}
+	
+	
+	 @Test
+	  public void test() {
+	    List<String> mockList = mock(List.class);
+	    mockList.add("First");
+	    when(mockList.get(0)).thenReturn("Mockito");
+	    when(mockList.get(1)).thenReturn("JCG");
+	    assertEquals("Mockito", mockList.get(0));
+	    assertEquals("JCG", mockList.get(1));
+	  }
+	 
+	 @Test
+	  public void mytest() {
+	    List<String> mockList = mock(List.class);
+	    mockList.add("First");
+	    when(mockList.get(0)).thenReturn("Mockito");
+	    when(mockList.get(1)).thenReturn("JCG");
+	    assertEquals("Mockito", mockList.get(0));
+	    assertEquals("JCG", mockList.get(1));
+	
+	    
+	    
+	    
+	  }
+	
+}

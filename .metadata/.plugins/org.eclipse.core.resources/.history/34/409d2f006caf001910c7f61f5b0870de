@@ -1,0 +1,20 @@
+package com.example.demo.controller;
+
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.example.demo.entites.emp;
+
+@RestController
+public class EmpController {
+	@RequestMapping(value = "/signup",method = RequestMethod.POST)
+public ModelAndView signup(emp emp,ModelMap map)
+{
+	ModelAndView view = new ModelAndView();
+	view.setViewName("signup.jsp");
+	return view;
+}
+}

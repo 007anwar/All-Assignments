@@ -1,0 +1,11 @@
+
+server.port=8098
+management.endpoints.web.exposure.include=*
+spring.security.user.name=Anwar
+info.app.name="Spring Boot App"
+management.endpoints.enabled-by-default=true
+spring.security.user.roles=ACTRADMIN
+management.endpoint.health.show-details=always
+#management.endpoint.health.show-details=when-authorized
+#management.endpoint.health.roles=ADMIN
+management.endpoints.web.cors.allowed-methods=GET,POST

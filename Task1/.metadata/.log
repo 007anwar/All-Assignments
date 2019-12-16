@@ -1,0 +1,1507 @@
+!SESSION 2019-09-26 14:07:58.789 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=11.0.4
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1 -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-26 14:08:02.964
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-26 14:08:04.198
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-26 14:08:04.198
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e36baca,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dfa2f64,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:02.897
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:02.898
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c4335c8[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:02.899
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:02.938
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.629
+!MESSAGE Boot LS startup time from start to initialized: 1706ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.686
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eRHQPgphisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.687
+!MESSAGE subscribing to classpath changes: sts4.classpath.eRHQPgph isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.688
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.700
+!MESSAGE subsribers = {sts4.classpath.eRHQPgph=Send Classpath Notifications(98)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.700
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.702
+!MESSAGE project EurekaServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.703
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.703
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.707
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.708
+!MESSAGE buffering callback sts4.classpath.eRHQPgph EurekaServer false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.708
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.709
+!MESSAGE executing callback sts4.classpath.eRHQPgph 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.710
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eRHQPgph => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:09:04.781
+!MESSAGE executing callback sts4.classpath.eRHQPgph SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-09-26 14:09:35.211
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-26 14:11:21.705
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-26 14:11:21.709
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:11:22.558
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:11:22.559
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:11:22.560
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:11:22.561
+!MESSAGE buffering callback sts4.classpath.eRHQPgph EurekaServer false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:11:22.561
+!MESSAGE executing callback sts4.classpath.eRHQPgph 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:11:22.615
+!MESSAGE executing callback sts4.classpath.eRHQPgph SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-26 14:11:24.000
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-26 14:11:24.003
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:04.920
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eRHQPgph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:04.933
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.eRHQPgph
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:04.934
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:04.934
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eRHQPgph => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.341
+!MESSAGE Boot LS startup time from start to initialized: 1236ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.379
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uGAJIvXvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.379
+!MESSAGE subscribing to classpath changes: sts4.classpath.uGAJIvXv isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.379
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.380
+!MESSAGE subsribers = {sts4.classpath.uGAJIvXv=Send Classpath Notifications(287)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.380
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.380
+!MESSAGE project EurekaServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.380
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.380
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uGAJIvXv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.381
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.381
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.382
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.383
+!MESSAGE buffering callback sts4.classpath.uGAJIvXv EurekaServer false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.383
+!MESSAGE executing callback sts4.classpath.uGAJIvXv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:14:37.439
+!MESSAGE executing callback sts4.classpath.uGAJIvXv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.292
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.293
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.293
+!MESSAGE buffering callback sts4.classpath.uGAJIvXv EurekaServer true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.293
+!MESSAGE executing callback sts4.classpath.uGAJIvXv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.296
+!MESSAGE executing callback sts4.classpath.uGAJIvXv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.367
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uGAJIvXv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.367
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uGAJIvXv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.367
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:18:40.368
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uGAJIvXv => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.536
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.539
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.540
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.540
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.541
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.541
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.542
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.542
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.543
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.543
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.544
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.544
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.545
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.545
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.545
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.547
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2019-09-26 14:18:40.786
+!MESSAGE DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getAttribute(DevtoolsUtil.java:232)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:197)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:212)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.handleStateChange(DevtoolsUtil.java:259)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:252)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:111)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:77)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1134)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1168)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.786
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2019-09-26 14:18:40.787
+!MESSAGE DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getAttribute(DevtoolsUtil.java:232)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:198)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:212)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.handleStateChange(DevtoolsUtil.java:259)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:252)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:111)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:77)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1134)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1168)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.787
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:18:40.797
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.disconnect(ConsoleLineNotifier.java:72)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$CompiledPatternMatchListener.dispose(ConsolePatternMatcher.java:198)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.disconnect(ConsolePatternMatcher.java:260)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:18:40.797
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.260
+!MESSAGE Boot LS startup time from start to initialized: 1209ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.293
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dMELRGHcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.293
+!MESSAGE subscribing to classpath changes: sts4.classpath.dMELRGHc isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.293
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.294
+!MESSAGE subsribers = {sts4.classpath.dMELRGHc=Send Classpath Notifications(444)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.294
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.294
+!MESSAGE project EurekaServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.294
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.294
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dMELRGHc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.295
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.295
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.296
+!MESSAGE classpath=146 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.297
+!MESSAGE buffering callback sts4.classpath.dMELRGHc EurekaServer false 146
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.297
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:19:07.363
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.238
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.238
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.239
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.239
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.239
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.243
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.337
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.337
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.338
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.338
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.338
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:00.350
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:58.911
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:58.911
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:58.911
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:58.911
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:20:58.913
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:21:18.535
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:21:18.535
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:21:18.535
+!MESSAGE buffering callback sts4.classpath.dMELRGHc EurekaServer true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:21:18.535
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:21:18.537
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:21:18.706
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.706
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:21:18.707
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.707
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:21:18.708
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.708
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:21:18.708
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.matchFound(ConsoleLineNotifier.java:116)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.708
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2019-09-26 14:21:18.924
+!MESSAGE DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getAttribute(DevtoolsUtil.java:232)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:197)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:212)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.handleStateChange(DevtoolsUtil.java:259)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:252)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:111)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:77)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1134)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1168)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.924
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY Activator 4 0 2019-09-26 14:21:18.925
+!MESSAGE DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:441)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getAttribute(DevtoolsUtil.java:232)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:198)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil.getElement(DevtoolsUtil.java:212)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.handleStateChange(DevtoolsUtil.java:259)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.DevtoolsUtil$1.processTerminated(DevtoolsUtil.java:252)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.processTerminated(ProcessTracker.java:111)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker.handleDebugEvent(ProcessTracker.java:77)
+	at org.springframework.ide.eclipse.boot.util.ProcessTracker$1.handleDebugEvents(ProcessTracker.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1134)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1168)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.925
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-09-26 14:21:18.929
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:886)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1383)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:490)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getType(LaunchConfiguration.java:645)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.isMavenProcess(MavenConsoleLineTracker.java:142)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker.lineAppended(MavenConsoleLineTracker.java:85)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.lineAppended(ConsoleLineNotifier.java:124)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.disconnect(ConsoleLineNotifier.java:72)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$CompiledPatternMatchListener.dispose(ConsolePatternMatcher.java:198)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.disconnect(ConsolePatternMatcher.java:260)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher$MatchJob.run(ConsolePatternMatcher.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2019-09-26 14:21:18.929
+!MESSAGE Launch configuration EurekaServer - EurekaServerApplication at file:/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1/.metadata/.plugins/org.eclipse.debug.core/.launches/EurekaServer%20-%20EurekaServerApplication.launch does not exist.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:22:21.902
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:22:21.902
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:22:21.903
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:22:21.904
+!MESSAGE buffering callback sts4.classpath.dMELRGHc EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:22:21.904
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:22:21.920
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:25:51.642
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:25:51.657
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:25:51.658
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:25:51.658
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:25:51.658
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:25:51.664
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2019-09-26 14:34:40.503
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1519)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut$1.run(BootLaunchShortcut.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:438)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:235)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:949)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut.findTypes(BootLaunchShortcut.java:83)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:115)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1409)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1198)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:35:25.678
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:35:25.679
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:35:25.679
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:35:25.679
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:35:25.682
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:36:14.609
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:36:14.609
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:36:14.610
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:36:14.611
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:36:14.611
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:36:14.615
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2019-09-26 14:37:56.857
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1496)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut$1.run(BootLaunchShortcut.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:438)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:235)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:949)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut.findTypes(BootLaunchShortcut.java:83)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:115)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1409)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1198)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-09-26 14:38:06.611
+!MESSAGE An internal error occurred during: "Launching EurekaServer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1496)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.junit.launcher.JUnit4TestFinder.findTestsInContainer(JUnit4TestFinder.java:146)
+	at org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate.evaluateTests(JUnitLaunchConfigurationDelegate.java:358)
+	at org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate.getVMRunnerConfiguration(JUnitLaunchConfigurationDelegate.java:162)
+	at org.eclipse.jdt.junit.launcher.JUnitLaunchConfigurationDelegate.launch(JUnitLaunchConfigurationDelegate.java:257)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:720)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1020)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2019-09-26 14:38:11.740
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1496)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut$1.run(BootLaunchShortcut.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:438)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:235)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:949)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut.findTypes(BootLaunchShortcut.java:83)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:115)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1409)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1198)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:45:12.110
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:45:12.110
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:45:12.123
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:45:12.123
+!MESSAGE buffering callback sts4.classpath.dMELRGHc Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:45:12.123
+!MESSAGE executing callback sts4.classpath.dMELRGHc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 14:45:12.132
+!MESSAGE executing callback sts4.classpath.dMELRGHc SUCCESS [done]
+!SESSION 2019-09-26 15:09:23.265 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1 -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-26 15:09:26.225
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-26 15:09:27.170
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-26 15:09:27.170
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@102c24d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@495f7ca4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:29.794
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:29.795
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@56739ee9[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:29.796
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:29.834
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.842
+!MESSAGE Boot LS startup time from start to initialized: 2035ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.910
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FNRADJWdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.910
+!MESSAGE subscribing to classpath changes: sts4.classpath.FNRADJWd isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.912
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.913
+!MESSAGE subsribers = {sts4.classpath.FNRADJWd=Send Classpath Notifications(71)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.913
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.976
+!MESSAGE project Hello ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.976
+!MESSAGE project EurekaServer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.977
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.977
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FNRADJWd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.978
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:31.978
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.488
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.517
+!MESSAGE buffering callback sts4.classpath.FNRADJWd Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.520
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.520
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.731
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.732
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.732
+!MESSAGE executing callback sts4.classpath.FNRADJWd 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:09:32.790
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-09-26 15:09:42.005
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.163
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.163
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.165
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.166
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.166
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.166
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.168
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.168
+!MESSAGE buffering callback sts4.classpath.FNRADJWd Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.168
+!MESSAGE executing callback sts4.classpath.FNRADJWd 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:12:11.217
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.463
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.464
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.465
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.466
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.466
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.466
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.467
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.467
+!MESSAGE buffering callback sts4.classpath.FNRADJWd Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.468
+!MESSAGE executing callback sts4.classpath.FNRADJWd 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:13:02.489
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:23.715
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:23.752
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:23.810
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:23.811
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:23.811
+!MESSAGE executing callback sts4.classpath.FNRADJWd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:24.052
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:48.119
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:48.123
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:48.126
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:48.126
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:48.126
+!MESSAGE executing callback sts4.classpath.FNRADJWd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 15:56:48.136
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.677
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.677
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.679
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.680
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.680
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.680
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.681
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.681
+!MESSAGE buffering callback sts4.classpath.FNRADJWd Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.681
+!MESSAGE executing callback sts4.classpath.FNRADJWd 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:32.690
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.351
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.352
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.353
+!MESSAGE classpath=152 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.353
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 152
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.354
+!MESSAGE Preparing classpath changed notification Hello
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.354
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.355
+!MESSAGE classpath=108 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.355
+!MESSAGE buffering callback sts4.classpath.FNRADJWd Hello false 108
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.355
+!MESSAGE executing callback sts4.classpath.FNRADJWd 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:04:44.390
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:05:12.036
+!MESSAGE Preparing classpath changed notification EurekaServer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:05:12.037
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:05:12.038
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:05:12.039
+!MESSAGE buffering callback sts4.classpath.FNRADJWd EurekaServer false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:05:12.039
+!MESSAGE executing callback sts4.classpath.FNRADJWd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:05:12.048
+!MESSAGE executing callback sts4.classpath.FNRADJWd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:19:46.224
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FNRADJWd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:19:46.224
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FNRADJWd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:19:46.224
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-26 16:19:46.224
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FNRADJWd => OK
+!SESSION 2019-09-30 14:24:34.553 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/Task1 -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-30 14:24:38.867
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-30 14:24:40.447
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-30 14:24:40.447
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@641e67fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fdff56b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-09-30 14:25:10.009
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2019-09-30 14:25:19.628
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1519)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut$1.run(BootLaunchShortcut.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:438)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:235)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:949)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut.findTypes(BootLaunchShortcut.java:83)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:115)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2019-09-30 14:25:27.209
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1519)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut$1.run(BootLaunchShortcut.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:438)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:235)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:949)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut.findTypes(BootLaunchShortcut.java:83)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:115)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1409)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1198)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1272)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2019-09-30 14:25:56.352
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:212)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.addModuleClassPathInfo(JavaSearchNameEnvironment.java:196)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.mapToClassPathLocation(JavaSearchNameEnvironment.java:188)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.computeClasspathLocations(JavaSearchNameEnvironment.java:133)
+	at org.eclipse.jdt.internal.core.search.matching.JavaSearchNameEnvironment.<init>(JavaSearchNameEnvironment.java:77)
+	at org.eclipse.jdt.internal.core.search.matching.IndexBasedJavaSearchEnvironment.create(IndexBasedJavaSearchEnvironment.java:334)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.initialize(MatchLocator.java:1222)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1260)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1377)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1519)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:112)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:250)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:595)
+	at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:670)
+	at org.eclipse.jdt.internal.debug.ui.launcher.MainMethodSearchEngine.searchMainMethods(MainMethodSearchEngine.java:97)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder$FindInSource.findMain(MainTypeFinder.java:203)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.internalGuessMainTypes(MainTypeFinder.java:128)
+	at org.springsource.ide.eclipse.commons.frameworks.core.maintype.MainTypeFinder.guessMainTypes(MainTypeFinder.java:71)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut$1.run(BootLaunchShortcut.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:438)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:235)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:949)
+	at org.springframework.ide.eclipse.boot.launch.BootLaunchShortcut.findTypes(BootLaunchShortcut.java:83)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.searchAndLaunch(JavaLaunchShortcut.java:115)
+	at org.eclipse.jdt.debug.ui.launchConfigurations.JavaLaunchShortcut.launch(JavaLaunchShortcut.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:88)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:412)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)

@@ -1,0 +1,69 @@
+package com.example.JPAGRADLE.pojo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+
+import org.hibernate.annotations.DynamicUpdate;
+
+import io.swagger.annotations.ApiModel;
+@ApiModel(description = "POJO CLASS FOR EMPLOYEE")
+@Entity
+public class Employee {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	@Column(name = "employeename")
+	@NotEmpty
+	private String name;
+	@Email
+	@NotEmpty
+	@Column(name = "email")
+	private String email;
+	@Column(name = "designation")
+	@NotEmpty
+	private String designation;
+
+
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getDesignation() {
+		return designation;
+	}
+
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + getId() + ", name=" + name + ", email=" + email + ", designation=" + designation + "]";
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+}

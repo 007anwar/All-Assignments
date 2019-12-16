@@ -1,0 +1,3 @@
+spring.application.name=employee-producer
+spring.cloud.config.uri:http://user1:password@localhost:8881
+

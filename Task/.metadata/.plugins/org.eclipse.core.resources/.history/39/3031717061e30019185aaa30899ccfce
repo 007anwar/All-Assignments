@@ -1,0 +1,13 @@
+
+public class Hello {
+	  private static int x = 5;
+
+	    public static class NestedTest {
+	        public static void doSomething() {
+	            System.out.println(x);
+	        }
+	    }
+	    public static void main(String[] args) {
+			NestedTest.doSomething();
+		}
+}

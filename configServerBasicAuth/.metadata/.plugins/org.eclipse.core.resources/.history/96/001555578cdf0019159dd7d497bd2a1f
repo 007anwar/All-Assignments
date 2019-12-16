@@ -1,0 +1,5 @@
+spring.cloud.config.username=user1
+spring.cloud.config.password=password
+spring.cloud.config.name=user1
+spring.profiles.active=dev
+spring.cloud.config.retry.max-attempts=30

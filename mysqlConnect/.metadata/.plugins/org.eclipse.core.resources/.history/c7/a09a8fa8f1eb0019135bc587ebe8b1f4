@@ -1,0 +1,13 @@
+package com.example.demo.repo;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.demo.entities.Student;
+
+public interface studentRepository extends CrudRepository<Student, Long> {
+	@Query("from Student")
+List<Student> findallstud();
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=CRUD/\/home\/administrator\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.2.1.RELEASE\/spring-data-commons-2.2.1.RELEASE.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1574048191984"/>
+    <typeInfo handle="=JPA-GRADLE-/\/home\/administrator\/.gradle\/caches\/modules-2\/files-2.1\/org.springframework.data\/spring-data-commons\/2.2.1.RELEASE\/50fd6bcdb59ad75e10ef5e73b7300367f1edd555\/spring-data-commons-2.2.1.RELEASE.jar&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1574051726700"/>
+    <typeInfo handle="=JPA-GRADLE-/\/home\/administrator\/.gradle\/caches\/modules-2\/files-2.1\/org.springframework.data\/spring-data-jpa\/2.2.1.RELEASE\/d28dd4e086901ba22fee61accd0950ae324bc67f\/spring-data-jpa-2.2.1.RELEASE.jar&lt;org.springframework.data.jpa.repository.support(CrudMethodMetadata.class[CrudMethodMetadata" modifiers="1537" timestamp="1574051725344"/>
+</typeInfoHistroy>

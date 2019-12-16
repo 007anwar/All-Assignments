@@ -1,0 +1,53 @@
+package com.example.demo.Entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import org.springframework.objenesis.instantiator.annotations.Instantiator;
+
+@Entity
+public class Emp {
+	@Id
+	private int eid;
+	private String name;
+
+	private int did;
+    @ManyToOne
+    @JoinColumn(name = "did")
+    private Dept dept;
+	public int getEid() {
+		return eid;
+	}
+
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getDid() {
+		return did;
+	}
+
+	public void setDid(int did) {
+		this.did = did;
+	}
+
+	public Dept getDept() {
+		return dept;
+	}
+
+	public void setDept(Dept dept) {
+		this.dept = dept;
+	}
+
+}

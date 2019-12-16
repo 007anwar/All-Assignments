@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class testController {
+public Employee display()
+{
+	Employee employee = new Employee();
+	employee.setEmpId("5095");
+	employee.setName("Anwar");
+	employee.setDesignation("Solution Arch");
+	employee.setSalary(1000000);
+	return employee;
+}
+}

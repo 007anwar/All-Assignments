@@ -1,0 +1,115 @@
+package com.example.JPAGRADLE;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.JPAGRADLE.service.EmployeeService;
+import com.example.jpagradle.api.EmployeeeApi;
+import com.example.jpagradle.pojo.Employee;
+import com.example.jpagradle.repo.EmpRepo;
+
+@SpringBootTest
+class JpaGradleSonarinitApplicationTests {
+	@InjectMocks
+	  Employee emp;
+	@InjectMocks
+	EmployeeService serv;
+	 @Mock
+	  EmpRepo rep;
+	 @Mock
+	  EmployeeeApi e;
+	 @Mock
+	 EmployeeService serv1;
+	 @Mock
+	 EmployeeService waterSource;
+	 @Test
+	 public void final2()
+	 {
+
+		 
+	 }
+	
+	 
+	  @Test
+		public void hello1()
+		{
+		  String testmethod = serv.testmethod();
+		  assertEquals("test", testmethod);
+		} 
+	  
+	  
+	 @Test
+	 public void final1()
+	 {
+		 when(serv1.testmethod()).thenReturn("anwar");
+		 String testmethod = serv1.testmethod();
+		 assertEquals("anwar", testmethod);
+
+		 
+	 }
+	 
+	@Test
+void save2()
+{
+        when(rep.save(emp)).thenThrow(IllegalAccessError.class);
+        rep.save(emp);
+        
+}
+	@Test
+void save1()
+{
+        when(rep.save(emp)).thenReturn(emp);
+        rep.save(emp);
+}
+	@Test
+	public void hello()
+	{
+
+        //arrange
+        Iterator iterator = mock(Iterator.class);
+        when(iterator.next()).thenReturn("Hello").thenReturn("World");
+        
+        //act
+        String result =iterator.next() + " " +iterator.next();
+        
+        //assert
+        assertEquals("Hello World", result);
+	}
+	
+	
+	
+	
+	 @Test
+	  public void test() {
+	    List<String> mockList = mock(List.class);
+	    mockList.add("First");
+	    when(mockList.get(0)).thenReturn("Mockito");
+	    when(mockList.get(1)).thenReturn("JCG");
+	    assertEquals("Mockito", mockList.get(0));
+	    assertEquals("JCG", mockList.get(1));
+	  }
+	 
+	 @Test
+	  public void mytest() {
+	    List<String> mockList = mock(List.class);
+	    mockList.add("First");
+	    when(mockList.get(0)).thenReturn("Mockito");
+	    when(mockList.get(1)).thenReturn("JCG");
+	    assertEquals("Mockito", mockList.get(0));
+	    assertEquals("JCG", mockList.get(1));
+	
+	    
+	    
+	    
+	  }
+	
+}

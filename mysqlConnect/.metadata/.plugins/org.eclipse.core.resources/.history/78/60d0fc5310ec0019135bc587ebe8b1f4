@@ -1,0 +1,32 @@
+package com.example.demo;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.example.demo.entity.stud;
+import com.example.demo.repo.studRepo;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class CrudApplicationTests {
+	@Autowired
+studRepo repo;
+	@Test
+	public void create() {
+	stud stud = new stud();
+	stud.setId(1);
+	stud.setName("abc");
+	repo.save(stud);
+	}
+	@Test
+	public void read() {
+		Iterable<stud> findAll = repo.findAll();
+		for (stud stud : findAll) {
+			System.out.println(stud);
+			
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.example.demo.MicroService1ConsumerApplication.callMS().response&apos; in &apos;com.example.demo.MicroService1ConsumerApplication.callMS()&apos; to field&#x0A;- Original project: &apos;MicroService1-consumer&apos;&#x0A;- Original element: &apos;com.example.demo.MicroService1ConsumerApplication.callMS().response&apos;&#x0A;- Field name: &apos;response&apos;&#x0A;- Initialize field in method&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;response&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src\/main\/java&lt;com.example.demo{MicroService1ConsumerApplication.java" name="response" selection="1211 30" stamp="1572951716115" static="false" version="1.0" visibility="2"/>
+</session>

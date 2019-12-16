@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import java.io.Serializable;
+import java.util.Random;
+import org.hibernate.HibernateException;
+import org.hibernate.engine.spi.SharedSessionContractImplementor;
+import org.hibernate.id.IdentifierGenerator;
+
+public class idgen implements IdentifierGenerator {
+	@Override
+	public Serializable generate(SharedSessionContractImplementor session, Object object) throws HibernateException {
+		Random obj = null;
+		obj = new Random();
+		int nextInt = obj.nextInt(1000);
+		return new Long(nextInt);
+	}
+
+}

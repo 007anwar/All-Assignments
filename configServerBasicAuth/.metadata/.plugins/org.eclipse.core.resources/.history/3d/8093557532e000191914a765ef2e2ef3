@@ -1,0 +1,4 @@
+spring.application.name=employee-producer
+spring.cloud.config.uri:http://user1:password\@localhost:8888
+#spring.cloud.config.fail-fast=true
+

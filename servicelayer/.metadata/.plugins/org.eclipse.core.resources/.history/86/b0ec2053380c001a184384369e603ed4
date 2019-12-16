@@ -1,0 +1,28 @@
+package com.example.JPAGRADLE;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.JPAGRADLE.controller.Employeee;
+import com.example.JPAGRADLE.pojo.Employee;
+import com.example.JPAGRADLE.repo.EmpRepo;
+
+@SpringBootTest
+class JpaGradleSonarinitApplicationTests {
+	@Autowired
+EmpRepo rep;
+	@Test
+	void save()
+	{
+Employeee employeee = new Employeee();
+Employee employee = new Employee();
+employee.setName("DEMO");
+employee.setDesignation("default");
+employee.setEmail("a@b.com");
+employeee.create(employee);
+
+
+	}
+
+}

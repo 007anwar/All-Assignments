@@ -1,0 +1,14 @@
+package com.example.demo.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+@RestController
+public class EmpController {
+public ModelAndView signup()
+{
+	ModelAndView view = new ModelAndView();
+	view.setViewName("success");
+	return view;
+}
+}

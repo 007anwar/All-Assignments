@@ -1,0 +1,13 @@
+
+asquid:S1452["&Remove usage of generic wildcard type.(Ο“Ύωÿÿÿÿ8™Σ΄ση-HNRCRITICALZ
+CODE_SMELL
+squid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(¶ά“Ϋϊÿÿÿÿ8ψ– ‘θ-HΫRCRITICALZVULNERABILITY
+wsquid:S46841"@Replace this persistent entity with a simple POJO or DTO object.(ÿ΄ΒέÿÿÿÿÿHRCRITICALZVULNERABILITY
+bsquid:S1452@"&Remove usage of generic wildcard type.(©ά‰εϋÿÿÿÿ8ΏΑπση-HυRCRITICALZ
+CODE_SMELL
+wsquid:S4684["@Replace this persistent entity with a simple POJO or DTO object.(Ο“ΎωÿÿÿÿHRCRITICALZVULNERABILITY
+wsquid:S4684@"@Replace this persistent entity with a simple POJO or DTO object.(©ά‰εϋÿÿÿÿHRCRITICALZVULNERABILITY
+esquid:S3655C"8Call "empfromdb.isPresent()" before accessing the value.(­¥Δ«8ύΰη‘θ-HφRMAJORZBUG
+asquid:S36556"7Call "findById.isPresent()" before accessing the value.(–υϊÿÿÿÿHRMAJORZBUG
+bsquid:S1452"&Remove usage of generic wildcard type.(¶ά“Ϋϊÿÿÿÿ8ηζ•τη-H„RCRITICALZ
+CODE_SMELL

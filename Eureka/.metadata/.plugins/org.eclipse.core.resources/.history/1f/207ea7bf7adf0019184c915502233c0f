@@ -1,0 +1,19 @@
+#eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+#server.port=8071
+#spring.application.name=employee-producer
+#eureka.instance.instanceId=myInstance2
+#management.endpoints.web.exposure.include=*
+spring.cloud.config.uri = http://localhost:8888
+#spring.cloud.config.uri = http://user:7ddb2d34-8b04-4150-b8b2-1721bb736ec0@localhost:8888
+#data="abc"
+spring.cloud.config.username=user
+spring.cloud.config.password=paswd
+
+#spring.cloud.config.server.encrypt.enabled=false
+spring.datasource.username=user
+spring.datasource.password=paswd
+security.basic.enabled=false
+
+
+
+

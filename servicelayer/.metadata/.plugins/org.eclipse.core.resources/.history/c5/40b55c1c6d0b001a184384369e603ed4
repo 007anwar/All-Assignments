@@ -1,0 +1,10 @@
+package com.example.JPAGRADLE.service;
+
+import com.example.JPAGRADLE.pojo.Employee;
+
+public class CrudService {
+public void create(Employee emp)
+{
+	
+}
+}

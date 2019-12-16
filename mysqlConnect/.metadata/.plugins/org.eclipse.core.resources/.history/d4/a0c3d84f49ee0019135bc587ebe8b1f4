@@ -1,0 +1,18 @@
+package com.example.demo.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class creditCard extends payment{
+private String cardnumber;
+
+public String getCardnumber() {
+	return cardnumber;
+}
+
+public void setCardnumber(String cardnumber) {
+	this.cardnumber = cardnumber;
+}
+
+
+}

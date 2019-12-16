@@ -1,0 +1,9 @@
+package com.example.demo.entity;
+
+public class employee {
+private long eid;
+private String name;
+
+
+
+}

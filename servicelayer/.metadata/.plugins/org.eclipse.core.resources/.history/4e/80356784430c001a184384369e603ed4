@@ -1,0 +1,25 @@
+package com.example.JPAGRADLE;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.JPAGRADLE.repo.EmpRepo;
+import com.example.JPAGRADLE.service.CrudService;
+
+@SpringBootTest
+class JpaGradleSonarinitApplicationTests {
+	@Autowired
+EmpRepo rep;
+	@Test
+	void save()
+	{
+CrudService crudService = new CrudService();
+String testmethod = crudService.testmethod();
+assertEquals(testmethod,testmethod);
+
+	}
+
+}

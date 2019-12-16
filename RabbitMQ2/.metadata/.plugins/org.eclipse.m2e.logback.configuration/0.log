@@ -1,0 +1,31 @@
+2019-09-19 09:54:39,226 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-19 09:57:45,565 [Worker-19: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javainuse:rabbitmq:0.0.1-SNAPSHOT @ /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/pom.xml.
+2019-09-19 09:57:45,565 [Worker-14: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javainuse:rabbitmq:0.0.1-SNAPSHOT @ /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/pom.xml.
+2019-09-19 09:58:06,257 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:58:06,301 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 09:58:06,370 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 09:58:06,374 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:58:06,375 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/src/test/resources
+2019-09-19 09:58:10,592 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javainuse:rabbitmq:0.0.1-SNAPSHOT @ /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/pom.xml.
+2019-09-19 09:58:11,757 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:58:12,318 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 09:58:12,330 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 09:58:12,333 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:58:12,333 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/src/test/resources
+2019-09-19 09:58:14,008 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:58:14,008 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 09:58:14,009 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 09:58:14,011 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 09:58:14,011 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/src/test/resources
+2019-09-19 10:01:24,310 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 10:01:24,323 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 10:01:24,323 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 10:01:24,325 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 10:01:24,325 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/src/test/resources
+2019-09-19 11:14:37,230 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-19 12:11:04,482 [Worker-16: Launching rabbitmq - Recv] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 12:11:04,485 [Worker-16: Launching rabbitmq - Recv] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-19 12:11:04,498 [Worker-16: Launching rabbitmq - Recv] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-19 12:11:04,503 [Worker-16: Launching rabbitmq - Recv] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 12:11:04,503 [Worker-16: Launching rabbitmq - Recv] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/administrator/Downloads/RabbitMQ/rabbitmq (another copy)/src/test/resources
+2019-09-25 09:14:16,098 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

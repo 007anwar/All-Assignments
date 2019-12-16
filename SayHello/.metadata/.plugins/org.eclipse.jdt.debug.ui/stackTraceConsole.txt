@@ -1,0 +1,3 @@
+	
+		http.authorizeRequests()
+		.antMatchers("/actuator/health").access("hasRole('ROLE_ADMIN')");

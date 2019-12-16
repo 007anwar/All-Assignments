@@ -1,0 +1,23 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.pojo.Employee;
+import com.example.demo.repo.EmployeeRepo;
+
+@RestController("/emp")
+public class employeeController {
+	@Autowired
+	EmployeeRepo repo;
+	@RequestMapping("/signup")
+	public String signup(Employee emp)
+	{ 
+		
+		repo.save(emp);
+		System.out.println("USER SAVED");
+		return "signup.jsp";
+	}
+
+}

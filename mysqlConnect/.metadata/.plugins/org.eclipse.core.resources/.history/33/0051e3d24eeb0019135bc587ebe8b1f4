@@ -1,0 +1,13 @@
+package com.example.demo.repo;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.demo.entity.Product;
+
+public interface ProductRepository extends CrudRepository<Product, Integer> {
+
+ Product findByName(String name);
+Product findByPrice(Double price);
+Product findByNameAndDesc(String name,String desc);
+Product findByprPriceGreaterThan(Double name);
+}

@@ -1,0 +1,8 @@
+
+spring.data.elasticsearch.cluster-name=elasticsearch
+spring.data.elasticsearch.cluster-nodes=localhost:9300
+cluster.name: production
+node.name: node1
+network.bind_host: 10.0.1.22
+network.host: 0.0.0.0
+transport.tcp.port: 9300

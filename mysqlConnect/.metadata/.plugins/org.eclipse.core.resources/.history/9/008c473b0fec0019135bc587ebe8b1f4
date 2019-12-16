@@ -1,0 +1,10 @@
+package com.example.demo.repo;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.demo.CrudApplication;
+import com.example.demo.entity.stud;
+
+public class studRepo implements CrudRepository<stud, Integer>{
+
+}

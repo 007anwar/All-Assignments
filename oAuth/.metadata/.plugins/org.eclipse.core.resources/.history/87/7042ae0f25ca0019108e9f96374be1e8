@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class conf extends WebSecurityConfigurerAdapter{
+
+	@Override
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+		 return super.authenticationManagerBean();
+	}
+
+}

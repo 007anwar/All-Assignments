@@ -1,0 +1,96 @@
+package com.example.demo;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.web.client.RestClientException;
+import com.example.demo.entitiy.Product;
+import com.example.demo.entitiy.Programmer;
+import com.example.demo.entitiy.Project;
+import com.example.demo.repo.productRepo;
+import com.example.demo.repo.programmerRepo;
+import com.example.demo.repo.projectRepo;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class JpaApplicationTests {
+//	@Autowired
+//productRepo repo;
+	@Autowired
+	programmerRepo prorepo;
+	@Autowired
+	projectRepo projrepo;
+//	@Test
+//	public void create() {
+//		Product product = new Product();
+//		product.setId(3);
+//		product.setName("apple");
+//		product.setDesc("bad");
+//		product.setPrice(43d);
+//		repo.save(product);
+//		//repo.delete(product);
+//		//repo.deleteById(1);
+//	}
+
+	@Test
+	public void createM2mf() {
+		Project project1 = new Project();//create project1
+		project1.setName("Project11");
+		Project project2 = new Project();//create project2
+		project2.setName("Project22");
+		HashSet<Project> projectSet = new HashSet<Project>();// all
+		HashSet<Project> projectSet1 = new HashSet<Project>();// by replacing if found in database and not found matches also
+		projectSet.add(project1);//add project to all set
+		projectSet.add(project2);
+		//check if project already present in database
+		//if present add project in database to projectSet2 
+		//else add project as it is to projectSet2
+		Iterator<Project> iterator = projectSet.iterator();
+		while (iterator.hasNext()) {
+			Project pro = (Project) iterator.next();
+			Project projectinDB = projrepo.findByName(pro.getName());
+			if (projectinDB == null) {
+				Project p = projrepo.save(pro);//save project to avoid detached entity problem
+				System.out.println("p=" + p.getId());
+				System.out.println("p=" + pro.getId());
+				projectSet1.add(pro);
+			} else {
+				projectSet1.add(projectinDB);
+			}
+		}
+		Programmer programmer = new Programmer();
+		programmer.setName("Sagar");
+		programmer.setSalary(19117);
+		programmer.setProject(projectSet1);
+		prorepo.save(programmer);
+		
+	}
+	
+	
+	///////////////////////////For testing//////////////////////
+	public void getEmployee() throws RestClientException, IOException {
+
+		String baseUrl = "http://localhost:8080/employee";
+		RestTemplate restTemplate = new RestTemplate();
+		ResponseEntity<String> response=null;
+		try{
+		response=restTemplate.exchange(baseUrl,
+				HttpMethod.GET, getHeaders(),String.class);
+		}catch (Exception ex)
+		{
+			System.out.println(ex);
+		}
+		System.out.println(response.getBody());
+	}
+
+	private static HttpEntity<?> getHeaders() throws IOException {
+		HttpHeaders headers = new HttpHeaders();
+		headers.set("Accept", MediaType.APPLICATION_JSON_VALUE);
+		return new HttpEntity<>(headers);
+	}
+}

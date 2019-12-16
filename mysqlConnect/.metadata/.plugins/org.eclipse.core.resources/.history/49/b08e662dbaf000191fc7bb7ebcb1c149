@@ -1,0 +1,59 @@
+package com.example.demo;
+
+import com.example.demo.Repositories.DepartmentRepository;
+import com.example.demo.Repositories.EmployeeRepository;
+import com.example.demo.model.Department;
+import com.example.demo.model.Employee;
+import com.example.demo.model.Employee;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JpaManyToOneRelationshipApplication implements CommandLineRunner {
+
+	@Autowired
+	private DepartmentRepository departments;
+
+	@Autowired
+	private EmployeeRepository employees;
+
+	public static void main(String[] args) {
+		SpringApplication.run(JpaManyToOneRelationshipApplication.class, args);
+	}
+
+	public void run(String... args) throws Exception {
+//Create Department Object
+		Department dept1 = new Department();
+		dept1.setName("Mech");
+		//departments.save(dept1);
+		Employee e1 = new Employee("abc");
+		Department dept = departments.findByName(dept1.getName());
+	//	departments.save(dept1);
+	//	e1.setDept(dept);
+	//	employees.save(e1);
+		if(dept==null)
+		{
+			departments.save(dept);
+			e1.setDept(dept1);
+			
+		}
+		else
+		{//departments.save(dept1);//error
+			e1.setDept(dept);
+		}
+		employees.save(e1);
+		/*
+		 * // If not present set department object on Employee and save employee if
+		 * (dept == null) { departments.save(dept1); e1.setDept(dept1);
+		 * System.out.println("Null dept"); //If dept found in database set same object
+		 * on employee and save employee; } else { departments.save(dept1);//MAIN LINE
+		 * CREATING ERROR************. e1.setDept(dept); System.out.println("notnull");
+		 * } employees.save(e1); System.out.println(dept);
+		 */
+
+	}
+
+}

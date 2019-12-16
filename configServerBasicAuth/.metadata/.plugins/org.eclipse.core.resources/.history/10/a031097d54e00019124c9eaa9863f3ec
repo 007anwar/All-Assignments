@@ -1,0 +1,8 @@
+spring.application.name=employee-producer
+spring.cloud.config.uri:http://user1:passwor@localhost:8888
+#spring.cloud.config.fail-fast=true
+#spring.cloud.config.retry.max-attempts=30
+spring.cloud.config.fail-fast=true
+spring.cloud.config.retry.max-attempts=1
+spring.cloud.config.retry.initial-interval=1500
+spring.cloud.config.retry.multiplier=1.5

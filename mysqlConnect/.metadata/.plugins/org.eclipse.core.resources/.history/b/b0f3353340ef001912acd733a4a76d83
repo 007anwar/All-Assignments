@@ -1,0 +1,34 @@
+package com.example.demo;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.example.demo.Entity.Dept;
+import com.example.demo.Entity.Emp;
+import com.example.demo.repo.deptRepo;
+import com.example.demo.repo.empRepo;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class TaskApplicationTests {
+@Autowired
+empRepo repo;
+@Autowired
+deptRepo repo1;
+	@Test
+	public void saveEmp() {
+	Dept dept = new Dept();
+	dept.setName("new");
+	dept.setDid(1010);
+	repo1.save(dept);
+	Emp emp = new Emp();
+	emp.setEid(111);
+emp.setName("person");
+emp.setDid(1010);
+repo.save(emp);
+	}
+
+}

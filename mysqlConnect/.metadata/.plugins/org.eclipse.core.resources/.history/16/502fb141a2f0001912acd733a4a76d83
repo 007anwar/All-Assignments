@@ -1,0 +1,42 @@
+package com.example.demo.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class employee {
+	@Id
+	//@Column(unique = true)
+	private long eid;
+	private String name;
+	@ManyToOne
+	@JoinColumn(name = "did", referencedColumnName = "did")
+	private department dept;
+
+	public long getEid() {
+		return eid;
+	}
+
+	public void setEid(long eid) {
+		this.eid = eid;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public department getDept() {
+		return dept;
+	}
+
+	public void setDept(department dept) {
+		this.dept = dept;
+	}
+
+}

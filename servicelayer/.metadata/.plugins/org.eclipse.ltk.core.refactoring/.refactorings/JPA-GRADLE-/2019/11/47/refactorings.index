@@ -1,0 +1,19 @@
+1574238140549	Encapsulate field 'id'
+1574331494912	Encapsulate field 'database'
+1574331499285	Encapsulate field 'network'
+1574402984325	Delete element
+1574413180677	Delete element
+1574413185373	Delete element
+1574413188683	Delete element
+1574428594209	Rename type 'SpringFoxConfig'
+1574429809637	Rename package 'com.example.JPAGRADLE.controller'
+1574429871471	Rename package 'com.example.JPAGRADLE'
+1574429898115	Rename package 'com.example.JPAGRADLE.api'
+1574429911134	Rename package 'com.example.JPAGRADLE.pojo'
+1574429923988	Rename package 'com.example.JPAGRADLE.repo'
+1574429939211	Rename package 'com.example.JPAGRADLE.service'
+1574433853213	Rename compilation unit 'JpaGradleSonarinitApplication.java'
+1574434458667	Rename type 'EmpRepo'
+1574434519586	Rename field 'repo'
+1574434613270	Rename method 'create'
+1574435503267	Rename field 'service'

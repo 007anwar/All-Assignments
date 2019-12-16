@@ -1,0 +1,12 @@
+package com.example.JPAGRADLE.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.JPAGRADLE.repo.EmpRepo;
+
+public class ServiceImpl {
+	@Autowired
+	EmpRepo repo;
+	private int id;
+
+}

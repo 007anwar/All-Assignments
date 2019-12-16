@@ -1,0 +1,28 @@
+package com.example.JPAGRADLE;
+
+public class RecordService {
+	
+	    private DatabaseDAO database;
+	    NetworkDAO network;
+	     
+	    //setters and getters
+	 
+	    public boolean save(String fileName) 
+	    {
+	        getDatabase().save(fileName);
+	        System.out.println("Saved in database in Main class");
+	         
+	        network.save(fileName);
+	        System.out.println("Saved in network in Main class");
+	         
+	        return true;
+	    }
+
+		public DatabaseDAO getDatabase() {
+			return database;
+		}
+
+		public void setDatabase(DatabaseDAO database) {
+			this.database = database;
+		}
+}

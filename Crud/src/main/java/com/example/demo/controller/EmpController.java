@@ -1,0 +1,37 @@
+package com.example.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.example.demo.entites.emp;
+import com.example.demo.repo.EmpRepository;
+
+@RestController
+public class EmpController {
+	@Autowired
+	EmpRepository repo;
+	@RequestMapping(value = "/signup",method = RequestMethod.POST)
+public ModelAndView signup(emp emp,ModelMap map)
+{try {
+		repo.save(emp);
+		map.addAttribute("msg", "Successfully signed up");
+}catch (Exception e) {
+	map.addAttribute("msg", "Signup failed");
+}
+	ModelAndView view = new ModelAndView();
+	view.setViewName("signup.jsp");
+	return view;
+}
+	@RequestMapping(value = "/home")
+	public ModelAndView home()
+	{
+		ModelAndView view = new ModelAndView();
+		view.setViewName("signup.jsp");
+		return view;
+	}
+	
+}

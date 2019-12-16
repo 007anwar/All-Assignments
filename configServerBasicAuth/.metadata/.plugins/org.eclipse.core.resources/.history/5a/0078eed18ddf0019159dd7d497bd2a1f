@@ -1,0 +1,8 @@
+spring.cloud.config.username=user1
+spring.cloud.config.password=password
+spring.cloud.config.name=user1
+spring.datasource.data-username=user1
+spring.datasource.data-password=password
+spring.profiles.active=dev
+spring.cloud.config.retry.max-attempts=3000
+security.enable-csrf=true

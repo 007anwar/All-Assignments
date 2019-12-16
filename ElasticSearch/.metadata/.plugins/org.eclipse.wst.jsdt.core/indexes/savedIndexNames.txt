@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/ElasticSearch/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+498181564.index
+2200290923.index
+2435311272.index
+862905788.index
+3984858050.index
+2532977011.index

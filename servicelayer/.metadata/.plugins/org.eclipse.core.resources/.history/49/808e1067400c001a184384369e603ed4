@@ -1,0 +1,44 @@
+package com.example.JPAGRADLE;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.aspectj.lang.annotation.Before;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.JPAGRADLE.controller.Employeee;
+import com.example.JPAGRADLE.pojo.Employee;
+import com.example.JPAGRADLE.repo.EmpRepo;
+import com.example.JPAGRADLE.service.CrudService;
+
+@SpringBootTest
+class JpaGradleSonarinitApplicationTests {
+
+    @InjectMocks
+    private UserController userController;
+
+    @Mock
+    private UserRepository userRepository;
+
+    @Before
+    public void init() {
+        MockitoAnnotations.initMocks(this);
+    }
+
+    @Test
+    public void testGetUserById() {
+       Employee employee = new Employee();
+        employee.setId(1l);
+        when(userRepository.findOne(1l)).thenReturn(employee);
+
+        Employee e = userController.get(1L);
+
+        verify(userRepository).findOne(1l);
+
+        assertEquals(1l, e.getId().longValue());
+    }
+
+}

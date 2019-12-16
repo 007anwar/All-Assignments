@@ -1,0 +1,11 @@
+
+esquid:S3655A"8Call "empfromdb.isPresent()" before accessing the value.(­¥Ä«8ôÓ·ğç-H¯RMAJORZBUG
+isquid:S36554"7Call "findById.isPresent()" before accessing the value.(–õúÿÿÿÿ8ôÓ·ğç-H°RMAJORZBUG
+ssquid:UselessImportCheck"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8ôÓ·ğç-H±RMINORZ
+CODE_SMELL
+†squid:UselessImportCheck"FRemove this unused import 'javax.persistence.EntityNotFoundException'.(©ÿ€8ôÓ·ğç-H²RMINORZ
+CODE_SMELL
+zsquid:S4684"@Replace this persistent entity with a simple POJO or DTO object.(Ïáº8ôÓ·ğç-H³RCRITICALZVULNERABILITY
+squid:S4684/"@Replace this persistent entity with a simple POJO or DTO object.(ÿ´Âİÿÿÿÿÿ8ôÓ·ğç-H´RCRITICALZVULNERABILITY
+squid:S4684>"@Replace this persistent entity with a simple POJO or DTO object.(èïÁùüÿÿÿÿ8ôÓ·ğç-HµRCRITICALZVULNERABILITY
+zsquid:S4684Y"@Replace this persistent entity with a simple POJO or DTO object.(ÀÅ™°8ôÓ·ğç-H¶RCRITICALZVULNERABILITY

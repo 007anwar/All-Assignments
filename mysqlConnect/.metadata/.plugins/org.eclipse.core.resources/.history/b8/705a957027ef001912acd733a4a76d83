@@ -1,0 +1,6 @@
+package com.example.demo.repo;
+
+public class Snippet {
+	Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Repeated column in mapping for entity: com.example.demo.Entity.Emp column: did (should be mapped with insert="false" update="false")
+}
+

@@ -1,0 +1,3 @@
+spring.cloud.config.username=user1
+spring.cloud.config.password=password
+spring.cloud.config.name=user1

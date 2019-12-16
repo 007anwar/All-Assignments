@@ -1,0 +1,22 @@
+
+_squid:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8Óß€’è-HŒRMAJORZ
+CODE_SMELL
+bsquid:S1452"&Remove usage of generic wildcard type.(¶Ü“Ûúÿÿÿÿ8Ò²‚’è-HRCRITICALZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºÙ„½8ë›­’è-HÒRMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸ØïU8ë›­’è-H¹RMAJORZ
+CODE_SMELL
+–squid:UselessImportCheck"PRemove this unused import 'org.springframework.web.bind.annotation.PostMapping'.(äƒà°ùÿÿÿÿ8¼®„’è-H˜RMINORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(×Ë D8ë›­’è-H¼RMAJORZ
+CODE_SMELL
+‹squid:UselessImportCheck
+"ERemove this unused import 'com.example.JPAGRADLE.controller.Empcont'.(°•†üÿÿÿÿ8çÍƒ’è-H”RMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(İè¬øÿÿÿÿ8ë›­’è-H»RMAJORZ
+CODE_SMELL

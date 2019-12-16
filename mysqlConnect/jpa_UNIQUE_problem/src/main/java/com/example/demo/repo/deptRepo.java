@@ -1,0 +1,9 @@
+package com.example.demo.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.entity.department;
+
+public interface deptRepo extends JpaRepository<department, Long> {
+department findByName(String name);
+}

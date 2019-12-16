@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="JpaGradleSonarinitApplicationTests" project="JPA-GRADLE-" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.209" displayname="JpaGradleSonarinitApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]">
+    <testcase name="hello1" classname="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.047" displayname="hello1()" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]/[method:hello1()]"/>
+    <testcase name="mytest" classname="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.114" displayname="mytest()" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]/[method:mytest()]"/>
+    <testcase name="test" classname="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.008" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]/[method:test()]"/>
+    <testcase name="hello" classname="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.035" displayname="hello()" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]/[method:hello()]"/>
+    <testcase name="save1" classname="com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests" time="0.005" displayname="save1()" uniqueid="[engine:junit-jupiter]/[class:com.example.JPAGRADLE.JpaGradleSonarinitApplicationTests]/[method:save1()]"/>
+  </testsuite>
+</testrun>

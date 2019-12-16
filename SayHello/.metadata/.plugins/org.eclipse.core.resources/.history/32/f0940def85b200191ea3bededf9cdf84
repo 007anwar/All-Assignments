@@ -1,0 +1,8 @@
+
+server.port=8098
+management.endpoint.info.enabled=true
+management.endpoints.web.exposure.include=*
+management.endpoint.conditions.enabled=true
+management.security.enabled = true
+spring.security.user.name=Anwar
+management.endpoint.beans.enabled=flase

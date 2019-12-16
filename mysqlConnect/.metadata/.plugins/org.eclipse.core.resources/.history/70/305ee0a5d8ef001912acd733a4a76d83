@@ -1,0 +1,121 @@
+package com.example.demo;
+
+import com.example.demo.Repositories.DepartmentRepository;
+import com.example.demo.Repositories.EmployeeRepository;
+import com.example.demo.model.Department;
+import com.example.demo.model.Employee;
+import com.example.demo.model.Employee;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class JpaManyToOneRelationshipApplication implements CommandLineRunner{
+
+    @Autowired
+    private DepartmentRepository departments;
+
+    @Autowired
+    private EmployeeRepository employees;
+
+    public static void main(String[] args) {
+        SpringApplication.run(JpaManyToOneRelationshipApplication.class, args);
+    }
+   
+    public void run(String... args) throws Exception {
+
+    	Department dept1 = new Department("IT");
+    	Employee e1 = new Employee("Anwar");
+    	//error code
+    	e1.setDept(dept1);
+    	
+    	
+    	
+    	//
+    		Department dept = departments.findByName(dept1.getName());
+    		if(dept==null)
+    		{ 	departments.save(dept1);
+    		     e1.setDept(dept1);
+    			System.out.println("Null dept");
+    			
+    		}
+    		else
+    		{
+    			e1.setDept(dept);
+    		System.out.println("notnull");	
+    		}
+    		employees.save(e1);
+    		System.out.println(dept);
+   
+    	//System.out.println("department"+findByName);
+     // Assign employees to departments
+    //	System.out.println("value for find by name="+findByName);
+    	//this.departments.save(dept1);
+        // Clean the database on start up
+       // this.employees.deleteAllInBatch();
+      //  this.departments.deleteAllInBatch();
+
+        // Create two managers
+//       if (findByName.toString()==null) {
+//    	   System.out.println("null blk");
+//    	   this.departments.save(dept1);
+//	}
+//       else
+//       {
+//    	   System.out.println("not null");
+//    	this.departments.save(findByName);
+//       }
+    //  System.out.println(findByName.getId());
+        
+        
+        //this is my code
+    //    Department department = departments.findByDept_Name(dept1.getDept_Name());
+        
+        //
+      //  Department dept2 = new Department("HR");
+        
+        // Persist the managers on database
+       
+       
+		/*
+		 * if(findByName.toString()==null) { this.departments.save(dept1); } else {
+		 * this.departments.save(findByName); }
+		 */
+       
+       
+       
+      // this.departments.save(dept2);
+     
+
+        
+      //  Employee e2 = new Employee("Anwar");
+      //  Employee e3 = new Employee("Angaj");
+      //  Employee e4 = new Employee("AngajB");
+        
+       
+       // e2.setDept(dept2);
+       // e3.setDept(dept2);
+       // e4.setDept(dept1);
+
+        
+       // this.employees.save(e2);
+       // this.employees.save(e3);
+       // this.employees.save(e4);
+
+
+        // Change the department for employee 1 and employee2.
+      // e1.setDept(dept2);
+      // e2.setDept(dept1);
+
+        // Persist the changes to database
+      // this.employees.save(e1);
+      // this.employees.save(e2);
+
+        // Delete department from database
+     // this.departments.delete(dept1);
+
+    }
+
+}

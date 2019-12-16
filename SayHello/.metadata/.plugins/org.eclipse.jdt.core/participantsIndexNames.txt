@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/SayHello/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/785479313.index
+/spring-security-master/src/main/java
+/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/SayHello/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3327262722.index
+/springSecurity2.0M4/src/main/java
+/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/SayHello/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1507767223.index
+/HelloFinal/src/main/java
+/home/administrator/Documents/workspace-spring-tool-suite-4-4.3.1.RELEASE/SayHello/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3055000571.index
+/spring-security-master (1)/src/main/java

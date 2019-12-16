@@ -1,0 +1,4 @@
+spring.datasource.url = jdbc:mysql://mysql3:3306/test
+spring.datasource.username = root
+spring.datasource.password = root
+
